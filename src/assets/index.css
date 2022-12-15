@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(134, 7, 103);
+    --primary: rgb(114, 4, 90);
     --secondary: rgb(16, 39, 61);
     --tertiary: rgb(155, 0, 0);
 }
@@ -7,15 +7,16 @@
 .mainContainer {
     background-color: var(--primary);
     height: 100%;
+    padding: 0px;
 }
 
 
 .sectionHead {
     font-size: xxx-large;
-    padding-bottom: 15px;
     text-shadow: 0 0 2px white;
-    border-bottom: 2px solid whitesmoke;
-    margin-top: 30px;
-    margin-bottom: 30px;
     color: whitesmoke;
+    /* padding-bottom: 15px; */
+    /* border-bottom: 2px solid whitesmoke; */
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
 }
