@@ -1,15 +1,15 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
+// import React from "react";
+// import Button from "react-bootstrap/Button";
+// import Card from "react-bootstrap/Card";
+// import Col from "react-bootstrap/Col";
 
-function PhotoCard({ 
+// function PhotoCard({ 
 
-}) {
+// }) {
 
-    return (
+//     return (
 
-    )
-}
+//     )
+// }
 
-export default PhotoCard;
+// export default PhotoCard;

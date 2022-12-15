@@ -1,14 +1,14 @@
-import React from "react";
-import Row from "react-bootstrap/Row";
-import "./style.css";
+// import React from "react";
+// import Row from "react-bootstrap/Row";
+// import "./style.css";
 
 
-function PageFooter () {
+// function PageFooter () {
 
-    return (
+//     return (
 
 
-    )
-}
+//     )
+// }
 
-export default PageFooter;
+// export default PageFooter;

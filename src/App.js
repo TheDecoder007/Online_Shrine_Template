@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import './App.css';
 import Hero from "./components/Hero";
-import PageFooter from "./components/Footer";
+// import PageFooter from "./components/Footer";
 import Projects from "./components/Projects";
 import "../src/assets/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,7 +16,7 @@ function App() {
     <Container fluid className="mainContainer">
     <Hero></Hero>
     <Projects></Projects>
-    <PageFooter></PageFooter>
+    {/* <PageFooter></PageFooter> */}
     </Container>
   );
 }
