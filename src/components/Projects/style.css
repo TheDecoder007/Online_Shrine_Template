@@ -15,10 +15,17 @@
     text-align: -webkit-center;
     margin-left: 10px;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
 
 }
 
+.card {
+    size: 3rem ;
+}
 .col1 {
-    height: 15rem;
-    
+    padding: 10px;
+    padding-bottom: 30px;  
 }

@@ -1,4 +1,13 @@
-.Hero {
-    padding-left: 0px;
+.HeroCont {
+    padding: 0px;
+    width: 100%;
+}
+
+.heroRow {
+    padding: 0px;
+}
+
+.HeroVid {
     padding-right: 0px;
+    padding-left: 0px;
 }

@@ -8,13 +8,13 @@ import Video from "../../assets/videos/heartPump.mp4"
 const Hero = () => {
 
     return (
-        <Container fluid className="Hero">
+        // <Container fluid className="HeroCont">
             <Row className="heroRow">
-            <video autoPlay loop muted id="video">
+            <video autoPlay loop muted id="video" className="HeroVid">
           <source src={Video} type="video/mp4" />
         </video>
             </Row>
-        </Container>
+        // </Container>
 
     );
 };
