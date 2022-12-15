@@ -1,10 +1,11 @@
 import React from "react";
 // import ProjectCard from "./PhotoCard";
-import {projects} from "./data";
+// import {projects} from "./data";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col  from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import Card from 'react-bootstrap/Card';
 import "./style.css";
 
 
@@ -17,8 +18,14 @@ function Projects() {
       </Row>
 
       <Row className="CardRow">
-      <Col xs={6} md={4}>
-      <Image src="../assets/photos/tati/tati8.jpg" rounded />
+        <Card>
+      <Card.Img src="../../assets/photos/Tati/tati8.jpg" className="images" />
+        </Card>
+    <Col className="col2">
+      <Image src="../../assets/photos/Tati/tati1.jpg" className="images" />
+    </Col>
+    <Col className="col3">
+      <Image src="../../assets/photos/Tati/tati8.jpg" className="images" />
     </Col>
       </Row>
       </Container>

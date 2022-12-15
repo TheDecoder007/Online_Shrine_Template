@@ -4,3 +4,16 @@
     padding-right: 5px;
     /* height: 100%; */
 }
+
+.images {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardRow {
+    text-align: -webkit-center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
