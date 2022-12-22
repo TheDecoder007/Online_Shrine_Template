@@ -9,6 +9,8 @@
     padding: 0px;
     justify-content: center;
     align-items: center;
+    border: 5px solid white;
+    border-radius: 10px;
 }
 
 .CardRow {
@@ -23,9 +25,17 @@
 }
 
 .card {
-    size: 3rem ;
+    margin-bottom: 10px;    
+    margin-top: 20px;
+    /* border-radius: 15px; */
+    border: 10px solid black;
+    box-shadow: 0 0 10px white;
+    height: 20rem;
+    width: 20rem;
 }
 .col1 {
-    padding: 10px;
-    padding-bottom: 30px;  
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center; 
 }

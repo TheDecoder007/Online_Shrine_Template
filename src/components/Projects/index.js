@@ -39,6 +39,10 @@ function Projects() {
               src={require("./../../assets/photos/tati2.png")}
               className="images"
             />
+          </Card>
+        </Col>
+        <Col className="col1">
+          <Card>
             <Card.Img
               src={require("./../../assets/photos/tati3.png")}
               className="images"
@@ -66,10 +70,43 @@ function Projects() {
               src={require("./../../assets/photos/tati5.png")}
               className="images"
             />
-            </Card>
-            <Card>
+          </Card>
+        </Col>
+        <Col className="col1">
+          <Card>
             <Card.Img
               src={require("./../../assets/photos/tati6.png")}
+              className="images"
+            />
+          </Card>
+        </Col>
+      </Row>
+
+      <Row>
+        <h3 className="text-center sectionHead">She's Goofy Too!</h3>
+      </Row>
+
+      <Row className="CardRow">
+        <Col className="col1">
+          <Card className="card">
+            <Card.Img
+              src={require("./../../assets/photos/tati7.png")}
+              className="images"
+            />
+          </Card>
+        </Col>
+        <Col className="col1">
+          <Card className="card">
+            <Card.Img
+              src={require("./../../assets/photos/tati22.png")}
+              className="images"
+            />
+          </Card>
+        </Col>
+        <Col className="col1">
+          <Card>
+            <Card.Img
+              src={require("./../../assets/photos/tati23.png")}
               className="images"
             />
           </Card>
