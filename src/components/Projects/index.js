@@ -49,7 +49,7 @@ function Projects() {
           <Col className="col1">
             <Card>
               <Card.Img
-                src={require("./../../assets/photos/tati11.png")}
+                src={require("./../../assets/photos/tati3.png")}
                 className="images"
               />
             </Card>
@@ -114,7 +114,7 @@ function Projects() {
           <Col className="col1">
             <Card className="card">
               <Card.Img
-                src={require("./../../assets/photos/tati3.png")}
+                src={require("./../../assets/photos/tati11.png")}
                 className="images"
                 />
             </Card>
@@ -236,6 +236,17 @@ function Projects() {
             <Col className="col1">
               <Card>
                 <Card.Img
+                  src={require("./../../assets/photos/tati12.png")}
+                  className="images"
+                  />
+              </Card>
+            </Col>
+           
+          </Row>
+          <Row>
+            <Col className="col1">
+              <Card>
+                <Card.Img
                   src={require("./../../assets/photos/tati17.png")}
                   className="images"
                   />
@@ -251,17 +262,6 @@ function Projects() {
             </Col>
           </Row>
 
-          <Row>
-            <Col className="col1">
-              <Card>
-                <Card.Img
-                  src={require("./../../assets/photos/tati12.png")}
-                  className="images"
-                  />
-              </Card>
-            </Col>
-           
-          </Row>
         </Row>
                   </section>
     </Container>
