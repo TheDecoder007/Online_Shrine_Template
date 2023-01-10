@@ -28,7 +28,7 @@ function Projects() {
         </Row>
       </Container>
 
-      <Container fluid className="projectCont" id="projects">
+      <Container fluid className="projectCont2" id="projects">
         <Row className="CardRow">
           <Col className="col1">
             <Card className="card">
@@ -75,18 +75,21 @@ function Projects() {
             </Card>
           </Col>
         </Row>
+        </Container>
+
+<Container  className="container1">
 
         <Row>
-          <h3 className="text-center sectionHead">Isn't She Gorgeous</h3>
+          <h3 className="text-center sectionHead1">Isn't She Gorgeous</h3>
         </Row>
 
-        <Row className="CardRow">
+        <Row className="CardRow1">
           <Col className="col1">
             <Card className="card">
               <Card.Img
                 src={require("./../../assets/photos/tati1.png")}
                 className="images"
-              />
+                />
             </Card>
           </Col>
           <Col className="col1">
@@ -94,18 +97,18 @@ function Projects() {
               <Card.Img
                 src={require("./../../assets/photos/tati6.png")}
                 className="images"
-              />
+                />
             </Card>
           </Col>
         </Row>
 
-        <Row className="CardRow">
+        <Row className="CardRow1">
           <Col className="col1">
             <Card>
               <Card.Img
                 src={require("./../../assets/photos/tati4.png")}
                 className="images"
-              />
+                />
             </Card>
           </Col>
           <Col className="col1">
@@ -113,7 +116,7 @@ function Projects() {
               <Card.Img
                 src={require("./../../assets/photos/tati3.png")}
                 className="images"
-              />
+                />
             </Card>
           </Col>
           <Col className="col1">
@@ -121,10 +124,13 @@ function Projects() {
               <Card.Img
                 src={require("./../../assets/photos/tati5.png")}
                 className="images"
-              />
+                />
             </Card>
           </Col>
               </Row>
+  </Container>
+
+  <Container fluid>
 
           <Row>
             <h3 className="text-center sectionHead">She's Funny too</h3>
@@ -202,11 +208,13 @@ function Projects() {
           </Col>
         </Row>
 
+<Container fluid className="container1">
+
         <Row>
-          <h3 className="text-center sectionHead">Mix & Match</h3>
+          <h3 className="text-center sectionHead1">She's Got It All</h3>
         </Row>
 
-        <Row className="CardRow">
+        <Row className="CardRow1">
           <Col className="col1">
             <Card className="card">
               <Card.Img
@@ -229,7 +237,7 @@ function Projects() {
                 <Card.Img
                   src={require("./../../assets/photos/tati17.png")}
                   className="images"
-                />
+                  />
               </Card>
             </Col>
             <Col className="col1">
@@ -237,7 +245,7 @@ function Projects() {
                 <Card.Img
                   src={require("./../../assets/photos/tatLook.png")}
                   className="images"
-                />
+                  />
               </Card>
             </Col>
           </Row>
@@ -248,12 +256,13 @@ function Projects() {
                 <Card.Img
                   src={require("./../../assets/photos/tati12.png")}
                   className="images"
-                />
+                  />
               </Card>
             </Col>
            
           </Row>
         </Row>
+                  </Container>
       </Container>
     </Container>
   );
