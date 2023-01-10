@@ -91,16 +91,15 @@
     background-color: var(--primary);
     font-size: xxx-large;
     color: white;
+    margin: 0px;
 }
 
 .CardRow1 {
     text-align: -webkit-center;
-    margin-left: 10px;
-    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    margin: 0px;
     background-color: var(--primary);
 
 }

@@ -77,7 +77,7 @@ function Projects() {
         </Row>
         </Container>
 
-<Container  className="container1">
+<section className="container1">
 
         <Row>
           <h3 className="text-center sectionHead1">Isn't She Gorgeous</h3>
@@ -128,7 +128,7 @@ function Projects() {
             </Card>
           </Col>
               </Row>
-  </Container>
+  </section>
 
   <Container fluid>
 
@@ -203,12 +203,13 @@ function Projects() {
               <Card.Img
                 src={require("./../../assets/photos/tati20.png")}
                 className="images"
-              />
+                />
             </Card>
           </Col>
         </Row>
+                </Container>
 
-<Container fluid className="container1">
+<section className="container1">
 
         <Row>
           <h3 className="text-center sectionHead1">She's Got It All</h3>
@@ -262,8 +263,7 @@ function Projects() {
            
           </Row>
         </Row>
-                  </Container>
-      </Container>
+                  </section>
     </Container>
   );
 }

@@ -4,11 +4,15 @@
     --tertiary: rgb(155, 0, 0);
 }
 
-
+.container-fluid, .container {
+    padding: 0px;
+}
 .mainContainer {
     background-color: black;
     height: 100%;
     padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
     text-align: -webkit-center;
 }
 
