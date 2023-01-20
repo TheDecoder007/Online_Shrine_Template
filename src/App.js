@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import "../src/assets/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
+import PageFooter from "./components/Footer";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <Container fluid className="mainContainer">
     <Hero></Hero>
     <Projects></Projects>
-    {/* <PageFooter></PageFooter> */}
+    <PageFooter></PageFooter>
     </Container>
   );
 }

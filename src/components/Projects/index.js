@@ -80,7 +80,7 @@ function Projects() {
 <section className="container1">
 
         <Row>
-          <h3 className="text-center sectionHead1">Isn't She Gorgeous</h3>
+          <h3 className="text-center sectionHead1">She's Elegant</h3>
         </Row>
 
         <Row className="CardRow1">
