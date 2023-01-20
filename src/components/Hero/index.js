@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 // import Container from "react-bootstrap/Container";
 import "./style.css";
 
-import Video from "../../assets/videos/heartpump22.mp4";
+import Video from "../../assets/videos/heartpump222.mp4";
 
 const Hero = () => {
   return (
