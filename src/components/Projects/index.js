@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 // import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import "./style.css";
+import Aos from "aos";
 
 function Projects() {
   return (
@@ -32,7 +33,7 @@ function Projects() {
         <Row className="CardRow">
           <Col className="col1">
             <Card className="card">
-              <Card.Img
+              <Card.Img 
                 src={require("./../../assets/photos/tati9.png")}
                 className="images"
               />
@@ -58,8 +59,8 @@ function Projects() {
 
         <Row className="CardRow">
           <Col className="col1">
-            <Card className="card">
-              <Card.Img
+            <Card data-aos="fade-right" className="card">
+              <Card.Img 
                 src={require("./../../assets/photos/tati14.png")}
                 className="images"
               />
@@ -67,7 +68,7 @@ function Projects() {
           </Col>
 
           <Col className="col1">
-            <Card>
+            <Card data-aos="fade-left">
               <Card.Img
                 src={require("./../../assets/photos/tati13.png")}
                 className="images"
@@ -80,7 +81,7 @@ function Projects() {
 <section className="container1">
 
         <Row>
-          <h3 className="text-center sectionHead1">She's Elegant</h3>
+          <h3 data-aos="fade-up" className="text-center sectionHead1">She's Elegant</h3>
         </Row>
 
         <Row className="CardRow1">
@@ -104,7 +105,7 @@ function Projects() {
 
         <Row className="CardRow1">
           <Col className="col1">
-            <Card>
+            <Card data-aos="fade-up">
               <Card.Img
                 src={require("./../../assets/photos/tati4.png")}
                 className="images"
@@ -112,7 +113,7 @@ function Projects() {
             </Card>
           </Col>
           <Col className="col1">
-            <Card className="card">
+            <Card data-aos="fade-up" className="card">
               <Card.Img
                 src={require("./../../assets/photos/tati11.png")}
                 className="images"
@@ -120,7 +121,7 @@ function Projects() {
             </Card>
           </Col>
           <Col className="col1">
-            <Card className="card">
+            <Card data-aos="fade-up" className="card">
               <Card.Img
                 src={require("./../../assets/photos/tati5.png")}
                 className="images"
@@ -133,7 +134,7 @@ function Projects() {
   <Container fluid>
 
           <Row>
-            <h3 className="text-center sectionHead">She's Funny too</h3>
+            <h3 data-aos="fade-down" className="text-center sectionHead">She's Funny too</h3>
           </Row>
 
               <Row className="CardRow">
@@ -178,7 +179,7 @@ function Projects() {
 
 <Container>
         <Row>
-          <h3 className="text-center sectionHead">What A Beauty!</h3>
+          <h3 data-aos="fade-up" className="text-center sectionHead">What A Beauty!</h3>
         </Row>
 
         <Row className="CardRow">
@@ -191,7 +192,7 @@ function Projects() {
             </Card>
           </Col>
           <Col className="col1">
-            <Card className="card">
+            <Card data-aos="fade-up" className="card">
               <Card.Img
                 src={require("./../../assets/photos/tati18.png")}
                 className="images"
@@ -217,7 +218,7 @@ function Projects() {
 
         <Row className="CardRow1">
           <Col className="col1">
-            <Card className="card">
+            <Card data-aos="fade-left" className="card">
               <Card.Img
                 src={require("./../../assets/photos/tati21.png")}
                 className="images"
@@ -225,7 +226,7 @@ function Projects() {
             </Card>
           </Col>
           <Col className="col1">
-            <Card className="card">
+            <Card data-aos="fade-right" className="card">
               <Card.Img
                 src={require("./../../assets/photos/tati16.png")}
                 className="images"
@@ -234,7 +235,7 @@ function Projects() {
           </Col>
           <Row>
             <Col className="col1">
-              <Card>
+              <Card >
                 <Card.Img
                   src={require("./../../assets/photos/tati12.png")}
                   className="images"
@@ -245,7 +246,7 @@ function Projects() {
           </Row>
           <Row>
             <Col className="col1">
-              <Card>
+              <Card data-aos="fade-right">
                 <Card.Img
                   src={require("./../../assets/photos/tati17.png")}
                   className="images"
@@ -253,7 +254,7 @@ function Projects() {
               </Card>
             </Col>
             <Col className="col1">
-              <Card className="card">
+              <Card data-aos="fade-left"className="card">
                 <Card.Img
                   src={require("./../../assets/photos/tatLook.png")}
                   className="images"
